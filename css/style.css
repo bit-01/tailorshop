@@ -1,0 +1,70 @@
+/*
+*** Colors *** 
+pancho:     #DEBA92     rgb(222, 186, 146)
+eastBay:    #414C63     rgb(65, 76, 99)
+snow:       #FAFAFA     rgb(250,250,250)
+*** ##Colors## *** 
+*/
+
+/* Fonts */
+@font-face {
+    src: url('../fonts/Oswald-Regular.ttf');
+    font-family: 'oswaldReg';
+}
+@font-face {
+    src: url('../fonts/Oswald-SemiBold.ttf');
+    font-family: 'oswaldSemi';
+}
+@font-face {
+    src: url('../fonts/Oswald-Bold.ttf');
+    font-family: 'oswaldBold';
+}
+@font-face {
+    src: url('../fonts/Oswald-Medium.ttf');
+    font-family: 'oswaldMed';
+}
+@font-face {
+    src: url('../fonts/Oswald-Light.ttf');
+    font-family: 'oswaldLight';
+}
+@font-face {
+    src: url('../fonts/Oswald-ExtraLight.ttf');
+    font-family: 'oswaldELight';
+}
+/* ##Fonts## */
+
+
+/* Tags */
+html, body, * {
+    font-family: 'oswaldReg';
+    background-color: #fafafa;
+}
+h1, h2, h3 {
+    font-family: 'oswaldBold';
+}
+h4, h5, h6 {
+    font-family: 'oswaldSemi';
+}
+/* ##Tags## */
+
+
+/* Classes */
+.pancho-bg {
+    background-color: #DEBA92 !important;
+}
+.pancho-fg {
+    color: #DEBA92 !important;
+}
+.eastBay-bg {
+    background-color: #414C63 !important;
+}
+.eastBay-fg {
+    color: #414C63 !important;
+}
+.snow-bg {
+    background-color: #fafafa !important;
+}
+.snow-fg {
+    color: #fafafa !important;
+}
+/* ##Classes## */
