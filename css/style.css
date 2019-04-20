@@ -35,15 +35,20 @@ snow:       #FAFAFA     rgb(250,250,250)
 
 
 /* Tags */
+body {
+    background-color: #fafafa;
+}
 html, body, * {
     font-family: 'oswaldReg';
-    background-color: #fafafa;
 }
 h1, h2, h3 {
     font-family: 'oswaldBold';
 }
 h4, h5, h6 {
     font-family: 'oswaldSemi';
+}
+a {
+    color: inherit !important;
 }
 /* ##Tags## */
 
@@ -67,4 +72,105 @@ h4, h5, h6 {
 .snow-fg {
     color: #fafafa !important;
 }
+.main-header-photo {
+    height: 475px;
+    background-size: cover;
+    background-position: center;
+    justify-content: center;
+    align-items: center;
+}
+.w-100 {
+    width: 100% !important;
+}
+.navbar {
+    padding: 0 !important;
+    transition: all 1s
+}
+.nav-item {
+    padding:.8rem;
+    text-align: center;
+}
+.nav-link {
+    font-size: 1.8rem;
+    padding: .5rem !important;
+    transition: ease-in .2s;
+    text-decoration: none !important;
+}
+.nav-link.active {
+    color: #414C63 !important;
+    border: #414C63 dashed 3px;
+    border-radius: 10px;
+    box-shadow: 0 0 0 4px#DEBA92;
+    background: #DEBA92;
+    text-decoration: none !important;
+}
+.nav-link:hover {
+    color: #DEBA92 !important;
+    border: #DEBA92 dashed 3px;
+    border-radius: 10px;
+    box-shadow: 0 0 0 4px transparent;
+    background: transparent;
+    text-decoration: none !important;
+}
+.show {
+    display: inline-block;
+    animation: hideB .4s ease-in;
+    -webkit-animation: showB .4s ease-in;
+    -moz-animation: showB .4s ease-in;
+    -o-animation: showB .4s ease-in;
+}
+.hide {
+    display: none;
+    animation: hideB .4s ease-in;
+    -webkit-animation: hideB .4s ease-in;
+    -moz-animation: hideB .4s ease-in;
+    -o-animation: hideB .4s ease-in;
+}
+
 /* ##Classes## */
+
+@media screen and (max-width: 990px) {
+    .brand {
+        width: 100% !important;
+    }
+    .navbar-toggler-scrolled {
+        text-align: right;
+        width: calc(100% - 210px);
+    }
+}
+
+
+/* Animations */
+@keyframes showB {
+    0% { opacity: 0;}   
+  100% { opacity: 1;}
+}
+@-webkit-keyframes showB {
+    0% { opacity: 0;}   
+  100% { opacity: 1;}
+}
+@-moz-keyframes showB {
+    0% { opacity: 0;}   
+  100% { opacity: 1;}
+}
+@-o-keyframes showB {
+    0% { opacity: 0;}   
+  100% { opacity: 1;}
+}
+@keyframes hideB {
+    0% { opacity: 1;}   
+  100% { opacity: 0;}
+}
+@-webkit-keyframes hideB {
+    0% { opacity: 1;}   
+  100% { opacity: 0;}
+}
+@-moz-keyframes hideB {
+    0% { opacity: 1;}   
+  100% { opacity: 0;}
+}
+@-o-keyframes hideB {
+    0% { opacity: 1;}   
+  100% { opacity: 0;}
+}
+/* ##Animations## */
