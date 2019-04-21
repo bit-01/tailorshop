@@ -3,6 +3,7 @@
 pancho:     #DEBA92     rgb(222, 186, 146)
 eastBay:    #414C63     rgb(65, 76, 99)
 snow:       #FAFAFA     rgb(250,250,250)
+dimGray:    #747474     rgb(116, 116, 116)
 *** ##Colors## *** 
 */
 
@@ -50,6 +51,9 @@ h4, h5, h6 {
 a {
     color: inherit !important;
 }
+section > h1 {
+    font-size: 3rem
+}
 /* ##Tags## */
 
 
@@ -71,6 +75,12 @@ a {
 }
 .snow-fg {
     color: #fafafa !important;
+}
+.dimGray-fg {
+    color: #747474 !important;
+}
+.dimGray-bg {
+    background-color: #747474 !important;
 }
 .main-header-photo {
     height: 475px;
@@ -126,8 +136,34 @@ a {
     -moz-animation: hideB .4s ease-in;
     -o-animation: hideB .4s ease-in;
 }
-
+.srv {
+    width: 437px;
+    margin: 0 auto !important;
+}
+.srv-head {
+    font-size: 7rem;
+}
+.srv-title {
+    font-size: 2.5rem
+}
+.srv-desc {
+    font-size: 1.8rem
+}
+a.btn-srv {
+    color: #414C63 !important;
+    background-color: #DEBA92;
+    padding: .7rem;
+}
+a.btn-srv:hover {
+    color: #DEBA92 !important;
+    background-color: #414C63;
+}
+object svg .a {
+    opacity: 1;
+    fill: #DEBA92 !important;
+}
 /* ##Classes## */
+
 
 @media screen and (max-width: 990px) {
     .brand {
