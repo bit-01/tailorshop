@@ -51,7 +51,7 @@ h4, h5, h6 {
 a {
     color: inherit !important;
 }
-section > h1 {
+section h1 {
     font-size: 4rem;
     margin-top: -1rem;
     margin-bottom: 2rem;
@@ -162,9 +162,15 @@ a.btn-srv:hover {
     color: #DEBA92 !important;
     background-color: #414C63;
 }
-object svg .a {
-    opacity: 1;
-    fill: #DEBA92 !important;
+.img-bg {
+    background-size: cover;;
+    background-position: center;
+}
+.aboutus-prg {
+    font-size:30px;
+}
+.aboutus-prg-parent {
+    padding: 1rem 5rem
 }
 /* ##Classes## */
 
@@ -177,13 +183,23 @@ object svg .a {
         text-align: right;
         width: calc(100% - 210px);
     }
+    .aboutus-prg {
+        font-size:25px;
+    }
 }
-@media screen and (max-width: 480) {
+
+@media screen and (max-width: 480px) {
     .srv-desc {
         font-size: 1.4rem
     }
     .srv-title {
         font-size: 2rem
+    }
+    .aboutus-prg {
+        font-size:20px;
+    }
+    .aboutus-prg-parent {
+        padding: 1rem 1rem !important;
     }
 }
 
