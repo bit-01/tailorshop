@@ -94,7 +94,8 @@ section > h1 {
 }
 .navbar {
     padding: 0 !important;
-    transition: all 1s
+    transition: all 1s;
+    border-bottom: .3rem solid #414C63;
 }
 .nav-item {
     padding:.8rem;
