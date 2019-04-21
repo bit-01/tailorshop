@@ -52,7 +52,9 @@ a {
     color: inherit !important;
 }
 section > h1 {
-    font-size: 3rem
+    font-size: 4rem;
+    margin-top: -1rem;
+    margin-bottom: 2rem;
 }
 /* ##Tags## */
 
@@ -138,8 +140,9 @@ section > h1 {
     -o-animation: hideB .4s ease-in;
 }
 .srv {
-    width: 437px;
-    margin: 0 auto !important;
+    width: 100%;
+    margin: 2rem auto !important;
+    padding: 0 2rem;
 }
 .srv-head {
     font-size: 7rem;
@@ -173,6 +176,14 @@ object svg .a {
     .navbar-toggler-scrolled {
         text-align: right;
         width: calc(100% - 210px);
+    }
+}
+@media screen and (max-width: 480) {
+    .srv-desc {
+        font-size: 1.4rem
+    }
+    .srv-title {
+        font-size: 2rem
     }
 }
 
