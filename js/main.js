@@ -21,4 +21,20 @@ $(function () {
         }
         
     });
+
+    var sw = new Swiper('.swiper-container', {
+      speed: 400,
+      autoplay: {
+        delay: 4000,
+        disableOnInteraction: true,
+      },
+      zoom: true,
+      pagination: {
+        el: '.swiper-pagination',
+      },
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      }
+    })
   });

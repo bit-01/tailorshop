@@ -172,6 +172,32 @@ a.btn-srv:hover {
 .aboutus-prg-parent {
     padding: 1rem 5rem
 }
+.swiper-button-prev, .swiper-button-next {
+    background-image: none !important;
+
+}
+.swiper-slide {
+    display: flex;
+    justify-content: center;
+}
+.swiper-zoom-container {
+    width: 85% !important;
+}
+.swiper-zoom-container > img {
+    border: #414C63 dashed 3px;
+    border-radius: 10px;
+    
+}
+.swiper-pagination-bullet {
+    background: #414C63 !important;
+    border: dashed #DEBA92 1px;
+    opacity: .8;
+    width: 16px;
+    height: 16px;
+} 
+.swiper-pagination-bullet-active {
+    background: #DEBA92 !important;
+}
 /* ##Classes## */
 
 
