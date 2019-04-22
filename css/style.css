@@ -153,12 +153,12 @@ section h1 {
 .srv-desc {
     font-size: 1.8rem
 }
-a.btn-srv {
+.btn-srv {
     color: #414C63 !important;
     background-color: #DEBA92;
     padding: .7rem;
 }
-a.btn-srv:hover {
+.btn-srv:hover {
     color: #DEBA92 !important;
     background-color: #414C63;
 }
@@ -198,6 +198,21 @@ a.btn-srv:hover {
 .swiper-pagination-bullet-active {
     background: #DEBA92 !important;
 }
+.form-control {
+    border: none;
+    border-bottom: #DEBA92 dashed 3px;
+}
+.form-control:focus {
+    box-shadow: 0 0 0 .2rem rgba(222, 186, 146,.25) !important;
+    border-color: #DEBA92 !important;
+}
+.btn:focus, .btn:active {
+    box-shadow: 0 0 0 .2rem rgba(222, 186, 146,.25) !important;
+}
+.contact {
+    margin-top: 8rem;
+    margin-left: -8rem;
+}
 /* ##Classes## */
 
 
@@ -211,6 +226,10 @@ a.btn-srv:hover {
     }
     .aboutus-prg {
         font-size:25px;
+    }
+    .contact {
+        margin-top: 0;
+        margin-left: 0;
     }
 }
 
