@@ -98,6 +98,7 @@ section h1 {
     padding: 0 !important;
     transition: all 1s;
     border-bottom: .3rem solid #414C63;
+    z-index: 10;
 }
 .nav-item, .dropdown-menu {
     padding:.8rem;
@@ -127,6 +128,9 @@ section h1 {
 }
 .dropdown-toggle::after {
     content: none !important;
+}
+.small-fg {
+    font-size: 1.2rem !important;
 }
 .show {
     display: inline-block;
