@@ -99,17 +99,17 @@ section h1 {
     transition: all 1s;
     border-bottom: .3rem solid #414C63;
 }
-.nav-item {
+.nav-item, .dropdown-menu {
     padding:.8rem;
     text-align: center;
 }
-.nav-link {
+.nav-link, .dropdown-item {
     font-size: 1.8rem;
     padding: .5rem !important;
     transition: ease-in .2s;
     text-decoration: none !important;
 }
-.nav-link.active {
+.nav-link.active, .dropdown-item.active {
     color: #414C63 !important;
     border: #414C63 dashed 3px;
     border-radius: 10px;
@@ -117,13 +117,16 @@ section h1 {
     background: #DEBA92;
     text-decoration: none !important;
 }
-.nav-link:hover {
+.nav-link:hover, .dropdown-item:hover {
     color: #DEBA92 !important;
     border: #DEBA92 dashed 3px;
     border-radius: 10px;
     box-shadow: 0 0 0 4px transparent;
     background: transparent;
     text-decoration: none !important;
+}
+.dropdown-toggle::after {
+    content: none !important;
 }
 .show {
     display: inline-block;
