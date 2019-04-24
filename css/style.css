@@ -126,6 +126,7 @@ section h1 {
     background: transparent;
     text-decoration: none !important;
 }
+
 .dropdown-toggle::after {
     content: none !important;
 }
@@ -219,6 +220,13 @@ section h1 {
 .contact {
     margin-top: 8rem;
     margin-left: -8rem;
+}
+.page-title {
+    display: inline-block;
+    padding: 1rem 3rem;
+    background-color: rgba(222, 186, 146, .75);
+    position: absolute;
+    bottom: 0;
 }
 /* ##Classes## */
 
