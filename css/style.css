@@ -86,6 +86,7 @@ section h1 {
 }
 .main-header-photo {
     height: 475px;
+    background-color: #414C63;
     background-size: cover;
     background-position: center;
     justify-content: center;
@@ -173,6 +174,7 @@ section h1 {
 .img-bg {
     background-size: cover;;
     background-position: center;
+    background-color: #414C63;
 }
 .aboutus-prg {
     font-size:30px;
