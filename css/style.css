@@ -40,13 +40,13 @@ body {
     background-color: #fafafa;
 }
 html, body, * {
-    font-family: 'oswaldReg';
+    font-family: 'oswaldReg', sans-serif;
 }
 h1, h2, h3 {
-    font-family: 'oswaldBold';
+    font-family: 'oswaldBold', sans-serif;
 }
 h4, h5, h6 {
-    font-family: 'oswaldSemi';
+    font-family: 'oswaldSemi', sans-serif;
 }
 a {
     color: inherit !important;
